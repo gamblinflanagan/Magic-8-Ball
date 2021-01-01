@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4E71C0521597D40002168BE /* crystal_ball.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D4E71C0421597D40002168BE /* crystal_ball.mp3 */; };
 		D4E99ADE1FBFB6A0008D8051 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E99ADD1FBFB6A0008D8051 /* AppDelegate.swift */; };
 		D4E99AE01FBFB6A0008D8051 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E99ADF1FBFB6A0008D8051 /* ViewController.swift */; };
 		D4E99AE31FBFB6A0008D8051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4E99AE11FBFB6A0008D8051 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D4E71C0421597D40002168BE /* crystal_ball.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = crystal_ball.mp3; sourceTree = "<group>"; };
 		D4E99ADA1FBFB6A0008D8051 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4E99ADD1FBFB6A0008D8051 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D4E99ADF1FBFB6A0008D8051 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +37,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D4E71C0621597D48002168BE /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				D4E71C0421597D40002168BE /* crystal_ball.mp3 */,
+			);
+			path = "Sound Files";
+			sourceTree = "<group>";
+		};
 		D4E99AD11FBFB6A0008D8051 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 				D4E99AE41FBFB6A0008D8051 /* Assets.xcassets */,
 				D4E99AE61FBFB6A0008D8051 /* LaunchScreen.storyboard */,
 				D4E99AE91FBFB6A0008D8051 /* Info.plist */,
+				D4E71C0621597D48002168BE /* Sound Files */,
 			);
 			path = "Magic 8 Ball";
 			sourceTree = "<group>";
@@ -125,6 +136,7 @@
 			files = (
 				D4E99AE81FBFB6A0008D8051 /* LaunchScreen.storyboard in Resources */,
 				D4E99AE51FBFB6A0008D8051 /* Assets.xcassets in Resources */,
+				D4E71C0521597D40002168BE /* crystal_ball.mp3 in Resources */,
 				D4E99AE31FBFB6A0008D8051 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,12 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBLJKZ7N3A;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JCF.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -289,12 +302,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HBLJKZ7N3A;
 				INFOPLIST_FILE = "Magic 8 Ball/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "JCF.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
